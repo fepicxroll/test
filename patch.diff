@@ -1,0 +1,13 @@
+diff --git a/Program.cs b/Program.cs
+index b96c179..0a8956f 100644
+--- a/Program.cs
++++ b/Program.cs
+@@ -9,6 +9,8 @@ namespace lab2test
+     {
+         static void Main(string[] args)
+         {
++			
++			
+             Person person1 = new Person("Adam", "Miś", new DateTime(1990, 3, 20, 12, 30, 10));
+             Person person2 = new Student("Michał", "Kot", new DateTime(1990, 4, 13), 3, 5, 12345);
+             Person person3 = new FootballPlayer("Mateusz", "Żbik", new DateTime(1986, 8, 10), "striker", "FC Barcelona", 10);
